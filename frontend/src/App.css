@@ -1,0 +1,40 @@
+.fade-enter {
+  opacity: 0.01;
+  z-index: 1;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.face-exit{
+  opacity: 1;
+  z-index: 1;
+}
+
+.face-exit-active{
+  opacity: 0.01;
+  transition: opacity 1s ease-in;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
