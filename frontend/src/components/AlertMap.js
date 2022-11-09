@@ -9,7 +9,7 @@ import MapGL, {
   } from "react-map-gl";
 
   
-const TOKEN = "pk.eyJ1IjoiYW50b2luZXNtZXQiLCJhIjoiY2t4Znl2ZHhhMGs4MTJwbnhnb3dsZzFkMiJ9.TdHd98LEC0qU1uOLB50p1g";
+const TOKEN = "Your Map Token";
 class AlertMap extends Component {
 
     componentDidMount() {
